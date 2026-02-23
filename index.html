@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ERP Task Manager - Login</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Supabase JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+
+<body class="login-body">
+    <div class="glass-panel login-panel">
+        <div class="logo-area">
+            <div class="logo-icon">✨</div>
+            <h2>ERP Portal</h2>
+        </div>
+        <form id="login-form">
+            <div class="input-group">
+                <label for="username">Name / Username</label>
+                <input type="text" id="username" placeholder="Enter your name" required />
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter password" required />
+            </div>
+            <button type="submit" class="primary-btn">Sign In</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
